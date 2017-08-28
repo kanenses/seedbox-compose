@@ -2,7 +2,7 @@
 #STARTradarr#
 radarr-%USER%:
   restart: always
-  image: hotio/radarr
+  image: linuxserver/radarr
   container_name: radarr-%USER%
   environment:
     - PUID=%UID%
